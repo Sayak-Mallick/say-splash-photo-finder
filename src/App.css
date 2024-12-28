@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  background-color: rgb(244,244,244);
+  color: #333;
+  font-size: 12px;
+}
+
+.app {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1000px;
+  padding: 40px;
+}
+
+.title {
+  font-size: 4.4rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.form {
+  display: grid;
+}
+
+.label {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.input {
+  padding: 0.5rem 2rem;
+  line-height: 2.5rem;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  margin-bottom: 1rem;
+}
+
+.button {
+  padding: 0.5rem 2rem;
+  line-height: 2.5rem;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  background-color: #333;
+  color: #fff;
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #555;
+}
